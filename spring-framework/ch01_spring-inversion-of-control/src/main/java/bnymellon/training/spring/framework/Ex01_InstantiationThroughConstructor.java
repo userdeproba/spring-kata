@@ -22,7 +22,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import bnymellon.training.spring.framework.model.ColoredShape;
 
 public class Ex01_InstantiationThroughConstructor {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // XML based config loading
         ApplicationContext context =
@@ -31,6 +31,6 @@ public class Ex01_InstantiationThroughConstructor {
 
         ColoredShape coloredShapeBean = (ColoredShape) context.getBean("coloredShapeBean");
 
-        System.out.println(coloredShapeBean.toString());
+        System.out.println(coloredShapeBean);
     }
 }
