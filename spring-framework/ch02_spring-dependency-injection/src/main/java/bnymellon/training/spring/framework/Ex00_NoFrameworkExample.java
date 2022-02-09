@@ -35,8 +35,7 @@ public class Ex00_NoFrameworkExample {
         ColoredShape redRectangle = new RedRectangle();
 
         // Create a holder of 5 red rectangles
-        ColoredShapeHolder redRectangleHolder =
-                new ColoredShapeHolder(redRectangle, 5);
+        ColoredShapeHolder redRectangleHolder = new ColoredShapeHolder(redRectangle, 5);
 
         //Should print "5 count of colored shape: [ red rectangle ]"
         System.out.println(redRectangleHolder);
@@ -46,8 +45,7 @@ public class Ex00_NoFrameworkExample {
         ColoredShape cyanCylinder = new CyanCylinder();
 
         // Create a holder of 7 cyan cylinders
-        ColoredShapeHolder cyanCylinderHolder =
-                new ColoredShapeHolder(cyanCylinder, 7);
+        ColoredShapeHolder cyanCylinderHolder = new ColoredShapeHolder(cyanCylinder, 7);
 
         //Should print "7 count of colored shape: [ cyan cylinder ]"
         System.out.println(cyanCylinderHolder);

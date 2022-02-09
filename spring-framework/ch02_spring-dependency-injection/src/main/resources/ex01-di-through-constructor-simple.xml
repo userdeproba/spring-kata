@@ -26,9 +26,7 @@
     <bean id="coloredShapeHolder" class="bnymellon.training.spring.framework.model.ColoredShapeHolder">
 
         <!-- The bean was created above, so we simply "referred" to it. -->
-        <constructor-arg>
-            <ref bean="coloredShapeBean"/>
-        </constructor-arg>
+        <constructor-arg ref="coloredShapeBean"/>
         <!-- The above could also be written in a shorter, direct style as-->
         <!-- <constructor-arg ref="coloredShapeBean"/> -->
 

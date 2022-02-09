@@ -23,7 +23,7 @@ import bnymellon.training.spring.framework.model.ColoredShapeHolder;
 
 public class Ex01_DIThroughConstructorSimple {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         // XML based config loading
         ApplicationContext context =
@@ -33,6 +33,6 @@ public class Ex01_DIThroughConstructorSimple {
         ColoredShapeHolder coloredShapeHolder =
                 (ColoredShapeHolder) context.getBean("coloredShapeHolder");
 
-        System.out.println(coloredShapeHolder.toString());
+        System.out.println(coloredShapeHolder);
     }
 }
